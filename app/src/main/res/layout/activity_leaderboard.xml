@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/l_title"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:background="@color/lightBlue"
+            android:gravity="center"
+            android:text="Leaderboard"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/pl1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#B3FFBF00"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#B3A4A4A4"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#B3DF7401"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl9"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pl10"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
